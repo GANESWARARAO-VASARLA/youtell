@@ -1,0 +1,47 @@
+.master_login_container{
+    background-color:black;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.label{
+    color:white;
+    font-size:30px;
+    margin-bottom:10px;
+    
+}
+.input{
+    height:40px;
+    width:100%;
+    margin-bottom:10px;
+}
+.form{
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    border:1px solid grey;
+    border-radius:20px;
+    padding:30px;
+}
+.requestLogin{
+    color:white;
+}
+.span{
+    color:yellow;
+}
+.signinButton{
+    color:white;
+    background-color:rgb(22, 22, 194);
+    border-radius:15px;
+    width:35%;
+    height:40px;
+}
+.signupSuccess{
+    color:white;
+}
+.signinButtonContainer{
+    text-align:center;
+}

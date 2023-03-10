@@ -1,0 +1,120 @@
+.master_page_container{
+    background-color:black;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+.logout{
+    color:white;
+    background-color:rgb(104, 104, 230);
+    height:35px;
+    border-radius:15px;
+}
+.formContainer{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content:space-between;
+    border:1px solid white;
+    align-items:center;
+    padding:10px;
+}
+.inputField{
+    color:white;
+    background-color:black;
+    height:30px;
+    border:2px solid white;
+    border-radius:20px;
+    padding:10px;
+}
+.selector{
+    height:30px;
+    background-color:black;
+    color:white;
+    border:1px solid white;
+    border-radius:20px;
+    
+   
+}
+.firstNumberContainer{
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    
+    
+}
+.secondNumberContainer{
+    width:30%;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    padding:10px;
+    
+}
+.selectContainer{
+    width:30%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+.firstNumber{
+    color:white;
+}
+.secondNumber{
+    color:white;
+}
+@media screen and (orientation:portrait){
+    .formContainer{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        border:1px solid white;
+        align-items:center;
+        padding:10px;
+    }
+    .firstNumberContainer{
+        width:100%;
+        margin-bottom:15px;
+        
+    }
+    .secondNumberContainer{
+        width:100%;
+        
+    }
+    .selectContainer{
+        width:100%;
+       
+    }
+}
+.resultSpan{
+    color:yellow;
+    font-weight:bold;
+}
+.resultHeading{
+    color:white;
+}
+.resultButton{
+    color:white;
+    background-color:green;
+    border-radius:10px;
+    height:35px;
+    width:30%;
+    margin:15px;
+}
+.logoutButton{
+    color:white;
+    background-color:red;
+    border-radius:10px;
+    height:35px;
+    width:100%;
+    margin:15px;
+
+}
