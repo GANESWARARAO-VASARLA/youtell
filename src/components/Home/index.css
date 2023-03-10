@@ -1,5 +1,5 @@
 .home_container{
-    background-color:black;
+    background-image:url("https://res.cloudinary.com/dwydkvzl6/image/upload/v1678449230/8iAP1eI_vnhfge.jpg");
     height:100vh;
     display:flex;
     flex-direction:column;
@@ -30,7 +30,7 @@
 .caption{
     color:white;
     font-weight:bold;
-    padding:5px;
+    padding:1px;
 }
 
 @media screen and (orientation:portrait){
